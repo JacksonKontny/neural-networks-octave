@@ -1,0 +1,1 @@
+function nabla_w = get_nabla_w (nodeLayers)  # return zero vector that matches bias weights  nabla_w = {};  for idx = 2:length(nodeLayers)    layer_1_nodes = nodeLayers(idx - 1);    layer_2_nodes = nodeLayers(idx);    nabla_w{idx} = zeros(layer_1_nodes, layer_2_nodes);  endforendfunction

@@ -1,0 +1,1 @@
+function sig = sigmoid (z)    # compute the sigmoid of z    sig = 1 ./ (1 + e.^-z);endfunction

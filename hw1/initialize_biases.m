@@ -1,0 +1,1 @@
+function biases = initialize_biases (nodeLayers)  # Create bias layer equal to the number of nodes in each layer after the input layer  biases = {};  for idx = 1:length(nodeLayers) - 1    biases{idx} = randn(nodeLayers(idx + 1), 1);  endfor  endfunction
