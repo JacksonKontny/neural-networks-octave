@@ -1,0 +1,1 @@
+function nabla_b = get_nabla_b (nodeLayers)  # create zero vector that matches bias terms  nabla_b = {};  for idx = 1:length(nodeLayers)    nabla_b(idx) = zeros(rows(nodeLayers(idx)), 1);  endforendfunction

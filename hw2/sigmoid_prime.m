@@ -1,0 +1,1 @@
+function ret = sigmoid_prime(z)    # compute sizmoid prime given z    ret = sigmoid(z).*(1-sigmoid(z));endfunction
